@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    tools:context=".Ar_Rahman">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/textview"
+        android:text="الْجَبَّارُ"
+        android:textColor="@color/white" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/corner"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6A6968"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AL-JABBAR"
+                android:textSize="20sp"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingStart="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Compeller, The Restorer"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:paddingTop="5dp"
+                android:paddingStart="20dp"
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+android:text="Al-Jabbaar is the Compeller, whatever He will is what happens. He is the One who is Exalted, High above His creation and He is the One who Reforms, the One who fixes the situation for His creation."
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingEnd="30dp"
+            android:textColor="@color/white"
+            android:paddingTop="5dp"
+            android:paddingStart="30dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/ic_baseline_bookmark_border_exact"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_baseline_play_circle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_baseline_share"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/floatingbtn"
+            android:src="@drawable/ic_baseline_play_circle"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
